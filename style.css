@@ -169,8 +169,8 @@ section {
     padding: 1rem;
     width: 8rem;
     border-radius: 2rem;
-    background-color: grey;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 
@@ -178,6 +178,36 @@ section {
     cursor: pointer;
 }
 
+#about {
+    position: relative;
+}
+
+.about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.about-containers,
+.about-details-container {
+    display: flex;
+}
+
+
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: grey 0.1rem solid;
+    text-align: center;
+}
 
 @media screen and (max-width:1200px) {
     #desktop-nav {
